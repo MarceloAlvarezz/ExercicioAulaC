@@ -40,10 +40,8 @@ int main() {
         }
     }
 
-    // Ordena o vetor
     bubbleSort(numbers, SIZE);
 
-    // Exibe os números sorteados
     printf("Números sorteados: ");
     for (int i = 0; i < SIZE; i++) {
         printf("%d ", numbers[i]);
